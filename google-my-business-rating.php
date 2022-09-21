@@ -1,13 +1,12 @@
 <?php
 /*
-Plugin Name: Automatisch aktualisierende Google Unternehmensprofil Bewertung
-Description: Get Google My Business Rating as Badge
-Version: 0.1
+Plugin Name: Automatic Update Google Business Profile Reviews
+Description: Get Google Business Profile Rating as Badge
+Version: 0.2
 Author: Sebastian Theobald
 Author URI: https://www.starts.design
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0
-Text Domain: gmb_rating
 */
 
 defined( 'ABSPATH' ) or die( 'Are you ok?' );
