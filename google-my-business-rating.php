@@ -227,13 +227,6 @@ function gmb_rating_get_rating() {
             update_option('gmb_rating_api_error', 'No ratings available from Google Places API');
         }
     }
-
-    $to = 'sebastian@starts.design';
-    $subject = 'Cron Job Google Rating';
-    $body = 'Cron Job wurde ausgeführt. Uhrzeit: ' . time();
-    $headers = array('Content-Type: text/html; charset=UTF-8','From: Google Rating <mail@starts.design>');
-    
-    wp_mail( $to, $subject, $body, $headers );
 }
 
 // Schedule an action if it's not already scheduled
