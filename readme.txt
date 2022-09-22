@@ -1,4 +1,4 @@
-=== Automatisch aktualisierende Google Unternehmensprofil Bewertung ===
+=== Automatic Update Google Business Profile Reviews ===
 Contributors: stheobald
 Tested up to: 6.0.2
 Requires PHP: 7.4.21
