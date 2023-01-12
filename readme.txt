@@ -1,8 +1,8 @@
 === Automatic Update Google Business Profile Reviews ===
 Contributors: stheobald
-Tested up to: 6.0.2
-Requires PHP: 7.4.21
-Stable tag: 0.1
+Tested up to: 6.1.1
+Requires PHP: 8.0.27
+Stable tag: 0.2
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0
 

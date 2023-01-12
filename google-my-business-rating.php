@@ -2,7 +2,7 @@
 /*
 Plugin Name: Automatic Update Google Business Profile Reviews
 Description: Get Google Business Profile Rating as Badge
-Version: 0.1
+Version: 0.2
 Author: Sebastian Theobald
 Author URI: https://www.starts.design
 License: GPL v3
