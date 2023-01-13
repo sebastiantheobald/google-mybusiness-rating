@@ -240,7 +240,6 @@ function gmb_rating_show_rating() {
 	$user_ratings_total = get_option('gmb_ratings_total');
 
     $rating = round($rating* 2, 0)/2;
-    $rating = 3.5;
     $gmb_profile_url = get_option('gmb_rating_url');
 
     // loop through stars
