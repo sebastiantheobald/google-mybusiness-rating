@@ -2,7 +2,7 @@
 Contributors: stheobald
 Tested up to: 6.1.1
 Requires PHP: 8.0.27
-Stable tag: 0.2
+Stable tag: 0.2.1
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0
 
