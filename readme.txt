@@ -1,8 +1,9 @@
 === Automatic Update Google Business Profile Reviews ===
 Contributors: stheobald
-Tested up to: 6.1.1
+Tags: Google Reviews, Automatic Update Google Reviews, Google Business Reviews, Google Star Rating, Google My Business Rating
+Tested up to: 6.4.2
 Requires PHP: 8.0.27
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0
 
@@ -24,3 +25,15 @@ This Plugin offers you a possibility to show your Google My Business rating aver
 
 = Show Rating =
 to show your rating place the shortcode [gmb_rating_badge] to your site.
+
+== Changelog ==
+(Hier listest du die Änderungen, die du in jeder Version vorgenommen hast.)
+
+= 0.2.2 =
+- Google Logo Breite in Firefox gefixt. War vorher zu breit.
+
+= 0.2.1 =
+- Bug Fixex
+
+= 0.1.0 =
+- Erstveröffentlichung des Plugins.
