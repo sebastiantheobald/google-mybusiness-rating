@@ -305,6 +305,7 @@ function gmb_rating_show_rating() {
         }
         .gmb_rating_badge_wrapper img {
 			height: 28px !important;
+            width: auto;
         }
 		.gmb_rating_badge_wrapper .gmb_rating_additional_information {
 			font-size: 13px;
