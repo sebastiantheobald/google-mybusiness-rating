@@ -3,9 +3,6 @@ on:
   push:
     tags:
     - "v*"
-  pull_request:
-    tags:
-    - "v*"
 
 jobs:
   deploy:
@@ -18,5 +15,5 @@ jobs:
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SOURCE_DIR: dist/
+          SOURCE_DIR: './'  # Das sagt der Action, dass der Inhalt des gesamten Repo-Verzeichnisses deployt werden soll.
           SLUG: automatic-update-google-business-profile-reviews
