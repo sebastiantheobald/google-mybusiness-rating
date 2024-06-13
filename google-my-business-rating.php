@@ -263,7 +263,7 @@ function gmb_rating_show_rating() {
         <div id="gmb_rating_wrapper">
             <a target="_blank" class="gmb_rating_wrapper_link" href="' . $gmb_profile_url . '">
                 <div class="gmb_rating_badge_wrapper">
-                    <img src="' . plugin_dir_url( __FILE__ ).'assets/images/googlelogo_color_272x92dp.png' . '" />
+                    <img alt="Google Logo" src="' . plugin_dir_url( __FILE__ ).'assets/images/googlelogo_color_272x92dp.png' . '" />
 
                     <div class="gmb_rating_average_rating">
                         <div class="gmb_rating_stars_wrapper">' .   
