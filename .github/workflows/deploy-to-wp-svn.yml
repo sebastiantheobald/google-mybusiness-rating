@@ -3,7 +3,7 @@ on:
   push:
     # 1. Trigger by pushing tag
     tags:
-      - "v*"
+      - "*"
 
 jobs:
   build:
