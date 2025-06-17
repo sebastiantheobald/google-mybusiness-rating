@@ -17,6 +17,10 @@ jobs:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SLUG: automatic-update-google-business-profile-reviews
+
+      - name: Clean temp directory
+        # löscht das von der ersten Action angelegte archivetmp
+        run: rm -rf /home/runner/archivetmp
       
       - name: Update readme & assets on WP.org
         uses: 10up/action-wordpress-plugin-asset-update@stable
