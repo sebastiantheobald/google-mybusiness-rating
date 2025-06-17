@@ -9,7 +9,7 @@ jobs:
   build:
     name: Deploy WordPress plugin
     # 2. Specify Linux runner
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       # 3. Checkout before Use this deployment action
       - name: Checkout
