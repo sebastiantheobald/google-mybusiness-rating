@@ -261,7 +261,7 @@ function gmb_rating_show_rating() {
     $html = 
 		'
         <div id="gmb_rating_wrapper">
-            <a target="_blank" class="gmb_rating_wrapper_link" href="' . $gmb_profile_url . '">
+            <a aria-label="Google Bewertungen" target="_blank" class="gmb_rating_wrapper_link" href="' . $gmb_profile_url . '">
                 <div class="gmb_rating_badge_wrapper">
                     <img alt="Google Logo" src="' . plugin_dir_url( __FILE__ ).'assets/images/googlelogo_color_272x92dp.png' . '" />
 
