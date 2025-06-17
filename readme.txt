@@ -3,7 +3,7 @@ Contributors: stheobald
 Tags: Google Reviews, Automatic Update Google Reviews, Google Business Reviews, Google Star Rating, Google My Business Rating
 Tested up to: 6.8.1
 Requires PHP: 8.0.27
-Stable tag: 0.2.3
+Stable tag: 0.2.4
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0
 
@@ -28,6 +28,9 @@ to show your rating place the shortcode [gmb_rating_badge] to your site.
 
 == Changelog ==
 (Hier listest du die Änderungen, die du in jeder Version vorgenommen hast.)
+
+= 0.2.4 =
+- Readded assets
 
 = 0.2.3 =
 - Alt Tag für Google Logo

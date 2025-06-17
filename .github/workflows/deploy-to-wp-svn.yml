@@ -1,4 +1,4 @@
-name: Deploy to WordPress.org
+name: Release Plugin & Update Assets
 on:
   push:
     tags:
@@ -13,6 +13,13 @@ jobs:
 
       - name: Deploy to WP.org
         uses: 10up/action-wordpress-plugin-deploy@stable
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: automatic-update-google-business-profile-reviews
+      
+      - name: Update readme & assets on WP.org
+        uses: 10up/action-wordpress-plugin-asset-update@stable
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
