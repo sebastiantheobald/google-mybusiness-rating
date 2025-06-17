@@ -14,6 +14,6 @@ jobs:
       - name: Deploy to WP.org
         uses: 10up/action-wordpress-plugin-deploy@stable
         env:
-          SVN_REPOSITORY_URL: ${{ secrets.SVN_Repository_URL }}
-          SVN_USER_NAME: ${{ secrets.SVN_USERNAME }}
-          SVN_USER_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: automatic-update-google-business-profile-reviews
